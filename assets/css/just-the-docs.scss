@@ -3,6 +3,8 @@
 # only Main files contain this front matter, not partials.
 ---
 
+.site-title {font-size: 20px;}
+
 {% if site.logo %}
 $logo: "{{ site.logo | absolute_url }}";
 {% endif %}
@@ -10,6 +12,8 @@ $logo: "{{ site.logo | absolute_url }}";
 //
 // Import external dependencies
 //
+
+@media (min-width: 31.25rem) { .site-title { font-size: 20px !important; } }
 
 @import "./vendor/normalize.scss/normalize.scss";
 
@@ -48,4 +52,5 @@ $logo: "{{ site.logo | absolute_url }}";
 @import "./utilities/utilities";
 @import "./overrides";
 
-.site-title {font-size: 20px;}
+@media (min-width: 31.25rem) { .site-title { font-size: 20px !important; } }
+
