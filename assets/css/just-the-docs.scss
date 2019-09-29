@@ -47,3 +47,5 @@ $logo: "{{ site.logo | absolute_url }}";
 @import "./code";
 @import "./utilities/utilities";
 @import "./overrides";
+
+.site-title {font-size: 20px;}
