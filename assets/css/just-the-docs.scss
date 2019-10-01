@@ -4,10 +4,7 @@
 ---
 // Custom
 .site-title {font-size: 20px;}
-$link-color: #41d693;
-link-color {color: #41d693;}
-$btn-primary-color: #009c7b;
-btn-primary-color {background-color: #009c7b;}
+a {color: #41d693;}
 
 {% if site.logo %}
 $logo: "{{ site.logo | absolute_url }}";
@@ -58,7 +55,4 @@ $logo: "{{ site.logo | absolute_url }}";
 
 // Custom
 @media (min-width: 31.25rem) { .site-title { font-size: 20px !important; } }
-$link-color: #41d693;
-link-color {color: #41d693;}
-$btn-primary-color: #009c7b;
-btn-primary-color {background-color: #009c7b;}
+a {color: #41d693;}
