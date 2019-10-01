@@ -5,6 +5,7 @@
 // Custom
 .site-title {font-size: 20px;}
 a {color: #41d693;}
+.btn {color: #41d693;}
 
 {% if site.logo %}
 $logo: "{{ site.logo | absolute_url }}";
@@ -56,3 +57,4 @@ $logo: "{{ site.logo | absolute_url }}";
 // Custom
 @media (min-width: 31.25rem) { .site-title { font-size: 20px !important; } }
 a {color: #41d693;}
+.btn {color: #41d693;}
