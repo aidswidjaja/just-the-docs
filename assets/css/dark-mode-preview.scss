@@ -3,6 +3,11 @@
 # only Main files contain this front matter, not partials.
 ---
 
+// Custom
+.site-title {font-size: 20px;}
+$link-color: #41d693;
+$btn-primary-color: #009c7b;
+
 {% if site.logo %}
 $logo: "{{ site.logo | absolute_url }}";
 {% endif %}
@@ -43,3 +48,8 @@ $logo: "{{ site.logo | absolute_url }}";
 // Import custom overrides
 //
 @import "./custom/custom";
+
+// Custom
+.site-title {font-size: 20px;}
+$link-color: #41d693;
+$btn-primary-color: #009c7b;
