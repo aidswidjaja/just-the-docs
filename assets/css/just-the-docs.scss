@@ -2,8 +2,11 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
-
+// Custom
 .site-title {font-size: 20px;}
+$link-color: $green-000;
+$btn-primary-color: $green-200;
+
 
 {% if site.logo %}
 $logo: "{{ site.logo | absolute_url }}";
@@ -52,5 +55,8 @@ $logo: "{{ site.logo | absolute_url }}";
 @import "./utilities/utilities";
 @import "./overrides";
 
+// Custom
 @media (min-width: 31.25rem) { .site-title { font-size: 20px !important; } }
+$link-color: $green-000;
+$btn-primary-color: $green-200;
 
