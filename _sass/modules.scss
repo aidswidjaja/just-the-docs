@@ -17,3 +17,5 @@
 @import "./tables";
 @import "./code";
 @import "./utilities/utilities";
+
+@media (min-width: 31.25rem) { .site-title { font-size: 20px !important; } }
