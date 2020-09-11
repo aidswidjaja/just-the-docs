@@ -14,6 +14,7 @@ $base-button-color: $grey-dk-250;
 $code-background-color: $grey-dk-250;
 $search-background-color: $grey-dk-250;
 $table-background-color: $grey-dk-250;
+$feedback-color: darken($sidebar-color, 3%);
 
 @media (min-width: 31.25rem) { .site-title { font-size: 18px !important; font-weight: 700;} } // @aidswidjaja
 
@@ -22,3 +23,4 @@ summary {
     font-family: monospace;
     text-decoration: underline;
 }
+
